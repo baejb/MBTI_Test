@@ -1,0 +1,56 @@
+#result{
+    display: none;
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+  }
+  #shareResult{
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  
+.resultname{
+    font-size: 26px;
+  }
+  
+.resultDesc{
+    font-size: 20px;
+    font-family: GmarketSansMedium;
+  }
+  
+  
+  .resultname{
+    margin-top: 10px;
+    font-size: 2em; 
+    border: none;
+    font-family: GmarketSansMedium;
+  }
+  .resultInro{
+    font-size:1.5em;
+    color: #868686;
+  }
+  .resultDescTitle1, .resultDescTitle2{
+    font-size: 1.5em; 
+    font-family: GmarketSansMedium;
+  }
+  
+  .resultDesc1, .resultDesc2{
+    margin-top: 10px;
+    margin-bottom: 14px;
+    font-size: 1em;
+    color: #868686;
+    font-family: GmarketSansMedium;
+  }
+  
+  .shareReusltBox{
+    margin-top: 40px;
+  }
+  .shareReuslt{
+    font-size: 1.5em; 
+    font-family: GmarketSansMedium;
+    color: #868686;
+  }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>개발자 유형 테스트 </title>
+</head>
+<body>
+    <section id="main" class="my-5 py-5 px-4 mx-auto">
+        <!-- margin y축, padding y축 padding x축 가운데 정렬 -->
+        <h1 class="jalan">나의 개발자 유형은?</h1>
+        <div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+            <!-- 라지일때 6 중간일때 8 작을때 10 가운데정렬  -->
+            <img src="./img/title_img.png" alt="title_img" class="img-fluid">
+            <!-- img-fluid 유동적으로 하게  -->
+        </div>
+        <p class="Gmarket mt-5">
+            <!-- marginn-top 5  -->
+            멋쟁이사자처럼 프론트엔드 4번째 교육에서 제작한</br>
+            개발자 유형 테스트입니다.
+            <br><br>
+            아래 시작하기 버튼을 눌러주세요. 
+        </p>
+        <button type="button" class="startBtn btn" onclick="js:start()">시작하기</button>
+    </section>
+    <section id="qna">
+        <div class="status mx-auto mt-5">
+            <div class="countStatus">
+
+            </div>
+            <div class="statusBar">
+
+            </div>
+        </div>
+        <div class="qBox my-5 py-3 mx-auto">
+
+        </div>
+        <div class="aBox">
+
+        </div>
+    </section>
+
+    <section id="result" class="mx-auto my-5 py-5 px-4">
+        <h2 class="jalan">나의 결과는 ?!</h2>
+        <div class="Gmarket">
+            <div class="resultIntro">
+
+            </div>
+            <div class="resultName">
+
+            </div>
+        </div>
+        <div id="resultImg" class="my-3 col-lg-6 col-md-8 col-sm-10 mx-auto">
+
+        </div>
+        <div class="resultDesc">
+            <div class="resultDescTitle1">
+
+            </div>
+            <div class="resultDesc1">
+
+            </div>
+            <div class="resultDescTitle2">
+
+            </div>
+            <div class="resultDesc2">
+
+            </div>
+        </div>
+    </section>
+    <script src="./js/mbti.js"></script>
+    <script src="./js/data.js"></script>
+</body>
+</html>
